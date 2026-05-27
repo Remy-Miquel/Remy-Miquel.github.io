@@ -15,7 +15,3 @@ https://deagant.github.io
 - Plateformes d'entraînement
 - Contact
 
-## Note
-
-Le fichier `assets/cv.pdf` n'est pas inclus dans ce dépôt.  
-Déposer une version anonymisée (ville uniquement, sans téléphone ni email perso) avant publication.
