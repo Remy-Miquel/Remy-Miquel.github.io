@@ -8,6 +8,7 @@
   --red:     #f87171;
   --green:   #34d399;
   --yellow:  #fbbf24;
+  --purple:  #a78bfa;
 }
 
 * { box-sizing: border-box; }
@@ -135,7 +136,8 @@ h3 {
 .badge-red    { background: rgba(248,113,113,.15); color: var(--red);    border: 1px solid rgba(248,113,113,.3); }
 .badge-blue   { background: rgba(56,189,248,.15);  color: var(--accent); border: 1px solid rgba(56,189,248,.3); }
 .badge-green  { background: rgba(52,211,153,.15);  color: var(--green);  border: 1px solid rgba(52,211,153,.3); }
-.badge-yellow { background: rgba(251,191,36,.15);  color: var(--yellow); border: 1px solid rgba(251,191,36,.3); }
+.badge-yellow  { background: rgba(251,191,36,.15);  color: var(--yellow); border: 1px solid rgba(251,191,36,.3); }
+.badge-purple  { background: rgba(167,139,250,.15); color: var(--purple); border: 1px solid rgba(167,139,250,.3); }
 
 /* ── Misc ── */
 .meta {
