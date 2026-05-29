@@ -64,9 +64,8 @@
         <p><strong>RNCP niveau 6 · Administrateur d'infrastructures sécurisées</strong></p>
         <p class="meta">2025 — 12 août 2026 · Essential terminé avec attestation · Fullstack en cours</p>
         <p>
-          Sécurité systèmes/réseaux, pentest web et infrastructure, protocoles réseau,
-          Linux, méthodologie de test, documentation technique, rapport de vulnérabilités
-          et propositions de remédiation.
+          Sécurité systèmes et réseaux, pentest web et infrastructure, Linux — avec une part
+          importante sur la méthodologie de test, la documentation et la rédaction de rapports.
         </p>
       </article>
     </section>
@@ -160,7 +159,7 @@
         <p>
           Flask + PostgreSQL + Nginx + ngrok orchestrés avec Docker Compose — de zéro jusqu'à un accès HTTPS public.
           Authentification par sessions (mots de passe hashés, isolation par utilisateur),
-          CSRF, rate limiting et headers HTTP testés en conditions réelles via tunnel ngrok.
+          Sécurité côté app testée en conditions réelles via tunnel ngrok : CSRF, rate limiting, headers.
         </p>
         <a href="https://github.com/Remy-Miquel/todo-docker-flask">Voir le projet →</a>
       </article>
@@ -171,7 +170,7 @@
           <span class="badge badge-blue">Blue Team</span>
         </div>
         <p>
-          Analyse d'emails suspects — headers, IP d'origine, artefacts, verdict.
+          Analyse d'emails suspects : reconstitution du chemin de livraison, identification de l'origine et verdict.
           Simulation de campagne GoPhish sur cibles fictives.
         </p>
         <a href="https://github.com/Remy-Miquel/phishing-analysis-lab">Voir le projet →</a>
@@ -183,9 +182,8 @@
           <span class="badge badge-green">Durcissement</span>
         </div>
         <p>
-          Correction de droits excessifs en base PostgreSQL : rôles, privilèges,
-          révocation d'accès dangereux, chiffrement des mots de passe,
-          principe du moindre privilège.
+          Correction de droits excessifs en base PostgreSQL — révocation des accès trop larges,
+          isolation des rôles, mots de passe chiffrés.
         </p>
         <a href="https://github.com/Remy-Miquel/postgres-security-hardening">Voir le projet →</a>
       </article>
@@ -198,7 +196,7 @@
         <p>
           Fiches techniques sur les vulnérabilités web en lab autorisé :
           XSS réfléchie, SSTI, SQLi, Command Injection.
-          Pour chaque fiche : mécanisme, impact, validation en lab, remédiation.
+          Chaque fiche détaille comment ça fonctionne, ce que ça casse et comment s'en protéger.
         </p>
         <a href="https://github.com/Remy-Miquel/web-vulnerabilities-labs">Voir le projet →</a>
       </article>
@@ -223,7 +221,7 @@
         </div>
         <p>
           Notes SUID/SGID, mauvaise configuration sudo, cronjobs, permissions Linux.
-          Erreurs de configuration + mesures de durcissement associées.
+          Ce qui permet l'escalade et ce qu'on aurait dû configurer différemment.
         </p>
         <a href="https://github.com/Remy-Miquel/linux-privesc-notes">Voir le projet →</a>
       </article>
