@@ -48,10 +48,10 @@
         <article class="card">
           <h3>Cibles visées</h3>
           <ul>
-            <li>SOC junior · analyse d'incidents</li>
-            <li>Support infrastructure sécurisée</li>
+            <li>Pentest encadré en entreprise</li>
+            <li>Test d'intrusion web et infrastructure</li>
             <li>Administration systèmes/réseaux junior</li>
-            <li>Pentest encadré</li>
+            <li>Support infrastructure sécurisée</li>
           </ul>
         </article>
       </div>
@@ -153,6 +153,21 @@
 
       <article class="card project-card">
         <div class="project-header">
+          <h3>Active Directory — Labs offensifs</h3>
+          <span class="badge badge-red">Offensif</span>
+        </div>
+        <p>
+          Chaîne d'attaque Active Directory montée en lab GNS3 (Windows Server + client + Kali) :
+          empoisonnement LLMNR/NBT-NS avec Responder, capture de hash NetNTLMv2, relais NTLM
+          et déplacement latéral en pass-the-hash avec impacket (ntlmrelayx, psexec, secretsdump).
+          Cartographie des chemins d'attaque avec BloodHound et Kerberoasting (GetUserSPNs) sur les comptes de service.
+          Contre-mesures documentées : signature SMB, désactivation LLMNR, gMSA/moindre privilège.
+        </p>
+        <a href="https://github.com/Remy-Miquel/active-directory-offensive-labs">Voir le projet →</a>
+      </article>
+
+      <article class="card project-card">
+        <div class="project-header">
           <h3>Todo App — Déploiement Docker</h3>
           <span class="badge badge-purple">Infrastructure</span>
         </div>
@@ -233,7 +248,7 @@
       <div class="grid">
         <article class="card">
           <h3>Root-Me</h3>
-          <p>405 pts · 35 challenges</p>
+          <p>435 pts · 37 challenges</p>
         </article>
         <article class="card">
           <h3>TryHackMe</h3>
