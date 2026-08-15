@@ -95,6 +95,7 @@
         <article class="card">
           <h3>Sécurité défensive</h3>
           <ul>
+            <li>Supervision Wazuh — agents, journaux, FIM</li>
             <li>Analyse de logs Apache</li>
             <li>Analyse phishing</li>
             <li>Durcissement PostgreSQL</li>
@@ -106,6 +107,15 @@
             <li>Nmap · Nikto · Burp Suite</li>
             <li>Hydra · SSH · SCP</li>
             <li>Python · Git · GitHub</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Réseau &amp; infrastructure</h3>
+          <ul>
+            <li>pfSense — filtrage inter-zones</li>
+            <li>Segmentation VLAN · DMZ</li>
+            <li>VPN IPsec site-à-site</li>
+            <li>ACL Cisco (IOU) · GNS3</li>
           </ul>
         </article>
         <article class="card">
@@ -122,6 +132,23 @@
 
     <section id="projets">
       <h2>Projets</h2>
+
+      <article class="card project-card">
+        <div class="project-header">
+          <h3>Cabinet Médical ATCHOUM — infrastructure multi-sites</h3>
+          <span class="badge badge-purple">Infrastructure</span>
+          <span class="badge badge-blue">Blue Team</span>
+          <span class="badge badge-red">Offensif</span>
+        </div>
+        <p>
+          Projet final Jedha en équipe de 5. Deux sites reliés par un tunnel IPsec entre deux pfSense,
+          architecture 3-tiers segmentée (DMZ, applicatif, données verrouillées), Active Directory
+          et supervision Wazuh. J'ai pris en charge la supervision, les règles de filtrage pfSense,
+          les ACL sur les routeurs Cisco IOU et la segmentation réseau.
+          Le tout audité par l'équipe adverse, avec un plan de remédiation priorisé et chiffré.
+        </p>
+        <a href="https://github.com/Remy-Miquel/projet-final-infra-medicale">Voir le projet →</a>
+      </article>
 
       <article class="card project-card">
         <div class="project-header">
